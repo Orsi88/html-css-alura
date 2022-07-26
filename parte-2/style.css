@@ -1,12 +1,26 @@
 @charset "UTF-8";
 
 header {
-    background-color: #BBBBBB;
+    background-color: #BBBBBB; 
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
     display: inline;
-    margin: 0, 0, 0, 15px;
+    margin-left: 15px;
+    
 }
 
 nav a {
@@ -15,4 +29,6 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    
 }
+

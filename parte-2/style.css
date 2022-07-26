@@ -1,2 +1,18 @@
 @charset "UTF-8";
 
+header {
+    background-color: #BBBBBB;
+}
+
+nav li {
+    display: inline;
+    margin: 0, 0, 0, 15px;
+}
+
+nav a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
